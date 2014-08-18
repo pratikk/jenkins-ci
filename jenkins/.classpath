@@ -22,8 +22,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/KONNUP2/Programs/spring-framework-4.0.6.RELEASE-dist/spring-framework-4.0.6.RELEASE/libs/spring-beans-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/KONNUP2/Programs/spring-framework-4.0.6.RELEASE-dist/spring-framework-4.0.6.RELEASE/libs/spring-core-4.0.6.RELEASE.jar"/>
-	<classpathentry kind="lib" path="C:/Users/KONNUP2/Programs/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
