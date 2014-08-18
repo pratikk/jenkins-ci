@@ -18,19 +18,19 @@
 	  <groupId>org.springframework</groupId>
 	  <artifactId>spring-core</artifactId>
 	  <version>4.0.6.RELEASE</version>
-	  <scope>compiled</scope>
+	  <scope>compile</scope>
 	</dependency>
 	<dependency>
 	  <groupId>org.springframework</groupId>
 	  <artifactId>spring-beans</artifactId>
 	  <version>4.0.6.RELEASE</version>
-	  <scope>compiled</scope>
+	  <scope>compile</scope>
 	</dependency>
 	<dependency>
 	  <groupId>commons-logging</groupId>
 	  <artifactId>commons-logging</artifactId>
 	  <version>1.2</version>
-	  <scope>compiled</scope>
+	  <scope>compile</scope>
 	</dependency>
   </dependencies>
   <build>
