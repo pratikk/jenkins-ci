@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" 
+      "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+   <bean id="HelloWorld" class="com.jenkins.app.Story">
+      <property name="title">
+         <value>Hello World!</value>
+      </property>
+      <property name="author">
+         <ref bean="User:Hyad" />
+      </property>
+      <property name="content">
+         <value>This is a simple story.
+This is a story about a man who said, "Hello, World."
+See, now wasn't that simple.</value>
+      </property>
+      <property name="pubDate">
+      	<value>01/01/14</value>
+      </property>
+   </bean>
+ 
+   <bean id="OnceUpon" class="com.jenkins.app.Story">
+      <property name="title">
+         <value>Once Upon a Time</value>
+      </property>
+      <property name="author">
+         <ref bean="RobYates" />
+      </property>
+      <property name="content">
+         <value>Once upon a time there were some interesting things going on.
+The end.</value>
+      </property>
+      <property name="pubDate">
+      	<value>02/03/14</value>
+      </property>
+   </bean>
+   <bean id="User:Hyad" class="com.jenkins.app.Author">
+     <property name="name">
+     	<value>User:Hyad</value>
+     </property>
+     <property name="pubs">
+     	<value>3</value>
+     </property>
+   </bean>
+   <bean id="RobYates" class="com.jenkins.app.Author">
+     <property name="name">
+     	<value>Rob Yates</value>
+     </property>
+     <property name="pubs">
+     	<value>21</value>
+     </property>
+   </bean>
+</beans>
