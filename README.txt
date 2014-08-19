@@ -7,4 +7,4 @@ Tasks:
 - Configure Jenkins Auto-Builder
 -
 - See how it would integrate with FX.
-- Localhost doesn't work: try using ngrok?
+- Works with ngrok! Try without git credentials in jenkins
